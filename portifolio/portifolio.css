@@ -1,0 +1,86 @@
+body{
+    background-image: url(/portifolio/WeeZy\ XX.jpg);
+    background-repeat: no-repeat;
+    background-size: calc(100%);
+    color: #fff;
+    font-family: Verdana;
+    font-size: large;
+}
+.perfil{
+    border-radius: 18px;
+}
+section{
+    background-color: transparent;
+    width: 1300px;
+    padding: 300px;
+    margin: auto;
+}
+table{
+    background-color: #333;
+    margin: 10px auto;
+    width: 150px;
+    padding: 30px;
+    opacity: 0.9;
+}
+td{
+    text-align: center;
+    width: 10px;
+    padding: 40px;
+}
+.text{
+    text-align: start;
+}
+p{
+    text-indent: 50px;
+}
+.info{
+    text-align: start;
+}
+
+nav {
+    background-color: #333; /* Cor de fundo escura */
+    padding: 10px;
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinha os itens horizontalmente */
+    justify-content: space-around; /* Distribui os itens igualmente */
+}
+
+/* Estilo dos itens da lista */
+nav ul li {
+    display: inline;
+}
+
+/* Estilo dos links */
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white; /* Cor do texto */
+    text-align: center;
+    text-decoration: none; /* Remove sublinhado */
+    transition: background-color 0.3s ease; /* Suaviza a mudança de cor */
+}
+
+/* Efeito hover nos links */
+nav ul li a:hover {
+    background-color: #575757; /* Cor de fundo ao passar o mouse */
+    border-radius: 5px; /* Bordas arredondadas para o efeito hover */
+}
+
+/* Estilo para links inativos (sem conteúdo) */
+nav ul li a[href=""] {
+    pointer-events: none; /* Desabilita o link */
+    color: #999; /* Cor mais clara para indicar inatividade */
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.redes:hover{
+    text-decoration: overline;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quebras de Texto com Imagem</title>
+    <style>
+        header {
+            text-align: center;
+
+            font-size: 2em;
+            /* Define um tamanho de fonte maior */
+        }
+    </style>
+</head>
+
+<body>
+    <header><b>Quebras</b></header>
+
+    <p>Este texto aparece antes da imagem, a qual vai ser alinhada à esquerda.</p>
+
+    <table>
+        <tr>
+            <td><img src="Foto-manha.png" alt="Imagem" width="300" height="150"></td>
+            <td>Esta frase está na mesma linha da imagem, pelo que fica à sua direita.</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: left;">O parâmetro de limpeza faz ultrapassar a imagem.</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

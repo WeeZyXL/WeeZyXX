@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Declara o tipo de documento como HTML5 -->
+<html lang="pt-BR">
+<!-- A tag <html> define o documento como um HTML e o atributo lang define o idioma da página -->
+
+<head>
+    <!-- A tag <head> contém metadados sobre o documento -->
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define a viewport para melhorar a exibição em dispositivos móveis -->
+    <title>Exemplo de Documento HTML</title>
+    <!-- Define o título da página, exibido na aba do navegador -->
+    <style>
+        /* A tag <style> permite incluir CSS diretamente no documento */
+    
+    </style>
+    <!-- Fim das regras de estilo -->
+</head>
+
+<body>
+    <!-- A tag <body> contém todo o conteúdo visível da página -->
+    <div class="container">
+        <!-- A tag <div> é um contêiner genérico para agrupar elementos -->
+        <header>
+            <!-- A tag <header> define o cabeçalho da página ou de uma seção -->
+            <h1>Meu Site</h1>
+            <!-- A tag <h1> define o título principal da página -->
+            <nav>
+                <!-- A tag <nav> define a navegação principal -->
+                <ul>
+                    <!-- A tag <ul> cria uma lista não ordenada -->
+                    <li><a href="#home">Home</a></li>
+                    <!-- A tag <li> define um item de lista e <a> cria um link -->
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- A tag <main> contém o conteúdo principal da página -->
+            <section id="home">
+                <!-- A tag <section> agrupa conteúdos relacionados -->
+                <h2>Bem-vindo à Página Inicial</h2>
+                <!-- A tag <h2> define um subtítulo -->
+                <p>Esta é a página inicial do meu site. Aqui você encontrará informações sobre diversos assuntos.</p>
+                <!-- A tag <p> define um parágrafo de texto -->
+            </section>
+
+            <section id="sobre">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor web com interesse em criar soluções inovadoras e eficientes.</p>
+                <!-- Outro parágrafo -->
+            </section>
+
+            <section id="contato">
+                <h2>Contato</h2>
+                <form>
+                    <!-- A tag <form> cria um formulário para entrada de dados -->
+                    <label for="nome">Nome:</label>
+                    <!-- A tag <label> associa um rótulo a um campo de formulário -->
+                    <input type="text" id="nome" name="nome">
+                    <!-- A tag <input> define um campo de entrada de dados -->
+                    <br>
+                    <!-- A tag <br> insere uma quebra de linha -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <button type="submit">Enviar</button>
+                    <!-- A tag <button> cria um botão interativo -->
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <!-- A tag <footer> define o rodapé da página ou de uma seção -->
+            <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+            <!-- A tag <p> aqui é usada para o texto de direitos autorais no rodapé -->
+        </footer>
+    </div>
+</body>
+
+</html>

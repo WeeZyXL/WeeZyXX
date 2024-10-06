@@ -1,0 +1,49 @@
+body{
+    background-image: url(/portifolio/fotos/portifolio.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav ul li {
+    display: inline;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+nav ul li a[href=""] {
+    pointer-events: none;
+    color: #999;
+}

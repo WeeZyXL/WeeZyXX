@@ -1,0 +1,28 @@
+body {
+    background-color: #f0f0f0;
+}
+
+/* usei o css separado pra editar as linhas*/
+.linha {
+    border-top: 1px solid #000; /* cor e espessura da linha */
+    width: 100%; /* largura da linha */
+} 
+   .linha2 {
+    border-top: 7px solid #a10707; /* cor e espessura da linha */
+    width: 85%; /* largura da linha */
+}
+   .linha3 {
+    border-top: 45px solid #047294; /* cor e espessura da linha */
+    width: 50%; /* largura da linha */
+
+}
+.center {
+    text-align: center;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+    text-align: center;
+    padding: 10px;
+}

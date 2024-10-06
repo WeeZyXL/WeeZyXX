@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(235, 247, 64);
+    font-family: 'Times New Roman', Times, serif
+}
+header {
+    color:#ffffff;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000000;
+}
+section {
+ background-color: #C0392B;
+ border-radius: 8px;
+ padding:50px;
+ width:  700px;
+ margin: auto;
+ box-shadow: 4px 4px 1px 3px #7B241C;
+}
+div{ 
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 3px 1px rgb(0, 0, 0);
+}
+footer {
+    color: rgb(239, 224, 196);
+    text-align: center;
+    font-style: italic;
+}

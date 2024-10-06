@@ -1,0 +1,76 @@
+body {
+    background-color: #28b674;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 1px 1px #085c33;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    box-shadow:6px 6px 1px 6px #085c33;
+}
+
+div {
+    background-color: #e8f4e8;
+    text-align: center;
+    padding: 8px;
+    box-shadow: 2px 2px 5px #085c33;
+    border-radius: 8px;
+}
+
+#res {
+    margin-top: 1px;
+    padding: 15px;
+    background-color: #e8f4e8;
+    border: 1px solid #d4edda;
+    border-radius: 8px;
+    color: #155724;
+    text-align:center ;
+}
+
+input[type="button"] {
+    background-color: #28b674;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 2px 2px 2px 3px #085c33;
+}
+
+input[type="number"] {
+    padding: 12px;
+    border: 3px solid #085c33;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+input[type="button"]:active {
+    transform: scale(0.98);
+}
+
+input[type="number"] {
+    width: 50%;
+    padding: 15px;
+    border: 1px solid #085c33;
+    border-radius: 18px;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px #085c33;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+#res img {
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(2px 2px 6px #085c33);
+}

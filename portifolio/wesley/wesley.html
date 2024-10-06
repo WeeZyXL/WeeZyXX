@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista com Hover</title>
+    <style>
+        /* Estilizando a lista */
+        ul {
+            list-style-type: none; /* Remove as bolinhas da lista */
+            padding: 0;
+            margin: 0;
+            width: 200px; /* Define uma largura fixa para a lista */
+        }
+
+        /* Estilo básico para os itens da lista */
+        li {
+            background-color: #f4f4f4; /* Cor de fundo padrão dos itens */
+            padding: 10px;
+            margin-bottom: 5px;
+            text-align: center;
+            border: 1px solid #ddd;
+            transition: background-color 0.3s, transform 0.3s; /* Suaviza a transição de cor e movimento */
+        }
+
+        /* Efeito ao passar o mouse (hover) sobre os itens da lista */
+        li:hover {
+            background-color: #87CEEB; /* Muda a cor de fundo no hover */
+            transform: scale(1.05); /* Aumenta levemente o tamanho do item no hover */
+            cursor: pointer; /* Muda o cursor para pointer (mãozinha) */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Lista com Efeito de Hover</h2>
+
+    <!-- Lista não ordenada -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+</body>
+</html>

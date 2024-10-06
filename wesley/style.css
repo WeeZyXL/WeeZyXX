@@ -1,0 +1,51 @@
+body {
+    background-image: url(tardee.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+
+}
+
+section {
+
+    background-color: #ff8901;
+    width: 300px;
+    padding: 50px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 8%;
+    box-shadow: #230f00 3px 2px 3px 1px;
+}
+
+.login {
+    margin-bottom: 8px;
+    margin-left: 10%;
+
+}
+
+.senha {
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+
+}
+
+.buttom { all:unset;
+}
+
+input[type="button"] {
+    background-color: #ff8901;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 2px 2px 2px 3px #230f00;
+}
+
+input[type="button"]:active {
+    transform: scale(0.98);
+}

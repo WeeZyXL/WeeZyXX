@@ -1,0 +1,1 @@
+alert('Ola, este codigo serve para mostrar os tipos de edição de texto!')

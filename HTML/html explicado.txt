@@ -1,0 +1,91 @@
+TAGS HTML
+
+•	<html>: Define o documento como um documento HTML.
+
+•	<head>: Contém metadados sobre o documento, como título, links para scripts e folhas de estilo.
+
+•	<title>: Define o título da página, exibido na aba do navegador.
+
+•	<meta>: Fornece metadados, como a codificação de caracteres (charset) ou descrição da página.
+
+•	<link>: Vincula recursos externos, como folhas de estilo CSS.
+
+•	<script>: Inclui ou referência código Javascript.
+
+•	<style>: Contém regras de estilo CSS dentro do documento HTML.
+
+•	<body>: Contém o conteúdo visível da página, como texto, imagens, links etc.
+
+•	<header>: Representa o cabeçalho da página ou de uma seção.
+
+•	<nav>: Define um conjunto de links de navegação.
+
+•	<main>: Indica o conteúdo principal da página.
+
+•	<section>: Agrupa conteúdo relacionado.
+
+•	<article>: Representa um conteúdo independente, como uma postagem de blog ou notícia.
+
+•	<aside>: Contém conteúdo relacionado, como uma barra lateral.
+
+•	<footer>: Define o rodapé da página ou de uma seção.
+
+•	<h1> a <h6>: Representam títulos, do mais importante (<h1>) ao menos importante (<h6>).
+
+•	<p>: Define um parágrafo de texto.
+
+•	<a>: Cria um link para outra página ou parte do documento.
+
+•	<img>: Insere uma imagem no documento.
+
+•	<ul>: Define uma lista não ordenada (com marcadores).
+
+•	<ol>: Define uma lista ordenada (numerada).
+	
+•	<li>: Representa um item de lista dentro de <ul> ou <ol>.
+
+•	<table>: Cria uma tabela.
+
+•	<tr>: Define uma linha de tabela.
+
+•	<th>: Define uma célula de cabeçalho de tabela.
+
+•	<td>: Define uma célula de dados de tabela.
+
+•	<form>: Cria um formulário para entrada de dados.
+
+•	<input>: Define um campo de entrada de dados dentro de um formulário.
+
+•	<button>: Cria um botão interativo.
+
+•	<label>: Associa um rótulo a um campo de formulário.
+
+•	<div>: Agrupa elementos para fins de layout ou estilo (divisão de bloco).
+
+•	<span>: Agrupa texto ou outros elementos para fins de estilo (divisão inline).
+
+•	<br>: Insere uma quebra de linha.
+
+•	<hr>: Insere uma linha horizontal para separar conteúdo.
+
+•	<strong>: Destaca texto com ênfase forte (geralmente em negrito).
+
+•	<em>: Aplica ênfase ao texto (geralmente em itálico).
+
+•	<b>: Aplica negrito ao texto, sem significado semântico.
+
+•	<i>: Aplica itálico ao texto, sem significado semântico.
+
+•	<code>: Define um trecho de código.
+
+•	<pre>: Exibe texto pré-formatado, preservando espaços e quebras de linha.
+
+•	<blockquote>: Indica uma citação em bloco.
+
+•	<audio>: Insere um arquivo de áudio com controles de reprodução.
+
+•	<video>: Insere um arquivo de vídeo com controles de reprodução.
+
+•	<canvas>: Define uma área para gráficos desenhados via script (JavaScript).
+
+•	<iframe>: Insere outro documento HTML dentro do atual.

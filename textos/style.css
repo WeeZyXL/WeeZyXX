@@ -1,0 +1,40 @@
+
+body{
+    background-color: #dfece6;
+}
+header {
+    color:#92c7a3;
+    text-align: center;
+    text-shadow: 1px 1px 1px #215a6d;
+}
+section {
+    background-color: #92c7a3;
+    border-radius: 10px;
+    padding: 30px;
+    width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box; 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: #215a6d 8px 6px 1px 13px;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.colored {
+    color: blue;
+}
+.center {
+    text-align: center;
+}
