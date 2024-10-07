@@ -1,0 +1,10 @@
+
+td {
+    color: white;
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+}
+td:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}

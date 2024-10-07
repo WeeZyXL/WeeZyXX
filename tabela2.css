@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+table{
+    width: 1200px;
+    padding: 60px;
+    box-shadow: 0px 0px 3px 2px white;
+    
+}
+
+td {
+    color: white;
+    transition: all 0.5s ease;
+    font-size: 20px;
+    border-radius: 35px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    background-color: black;
+}
+
+td:hover {
+
+    transform: scale(1.8);
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.MetalAlcalino{
+    box-shadow:0px 0px  15px 8px #287e1c;
+}
+
+.MetalAlcalinoTerroso{
+    box-shadow:0px 0px  15px 8px #b96857;
+}
+
+.Ametais{
+    box-shadow:0px 0px  15px 8px #00c9d2;
+}
+
+.MetalTransicao{
+    box-shadow:0px 0px  15px 8px #925390;
+}
+
+.MposTansicao{
+    box-shadow:0px 0px  15px 8px #68bd57;
+}
+
+.Semimetais{
+    box-shadow:0px 0px  15px 8px #b96857;
+}
+
+.GasesNobres{
+    box-shadow:0px 0px  15px 8px #8a4032 ;
+}
+
+.desconhecido{
+    box-shadow:0px 0px  15px 8px #808080 ;
+}
+
+.Latanideos{
+    box-shadow:0px 0px  15px 8px #5460a5 ;
+}
+
+.Actinideos{
+    box-shadow:0px 0px  15px 8px #cf9446 ;
+    
+}
