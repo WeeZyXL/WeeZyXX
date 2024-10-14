@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to bottom, #e47d28, rgb(41, 25, 2));
+    font-family: verdana;
+    font-size: x-large;
+    font-weight: bold;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+form {
+    background-color: rgb(245, 184, 115);
+    width: 80vw; /* 80% da largura da viewport */
+    max-width: 500px; /* Limite de largura máxima */
+    padding: 5vw; /* Padding relativo ao viewport */
+    box-shadow: 1px 1px 3px 5px rgb(54, 27, 2);
+    border-radius: 10px;
+}
+
+input[type=radio] {
+    width: 10px;
+    padding: 3px;
+}
+
+input[type=submit] {
+    background-color: #f5f5f5;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+    box-shadow: #e47d28 1px 1px 2px 1px;
+}
+
+input[type=color] {
+    width: 50px;
+    padding: 2px;
+}
+
+input {
+    width: 90%; /* Largura relativa ao container */
+    padding: 8px;
+    background: transparent;
+    border-radius: 8px;
+    color: white;
+}
